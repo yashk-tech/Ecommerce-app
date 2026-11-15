@@ -38,6 +38,6 @@ const verifyPayment = async (req, res) => {
   } catch (error) {
     res.status(500).send(error);
   }
-};
+};                                            
 
-module.exports = { createOrder, verifyPayment };
+module.exports = { createOrder, verifyPayment };                 
